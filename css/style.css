@@ -1,0 +1,94 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #191919;
+}
+
+body {
+    height: 90vh;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+    margin-bottom: 4rem;
+}
+
+h1 {
+    color: #eeeeee;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0 0 1px #ffffff, 0 0 3px #ffffff, 0 0 6px #ffffff;
+}
+
+.cajas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+#caja1, #caja2, #caja3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 230px;
+    height: 280px;
+    border-radius: 1.2rem;
+    background-color: #191919;
+    box-shadow: 5px 5px 30px rgb(4, 4, 4),
+                -5px -5px 30px rgb(57, 57, 57);
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    color: #eeeeee;
+    font-size: 1rem;
+}
+
+.creador {
+    text-decoration: none;
+    color: #00d0ff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.creador:hover {
+    color: #0396b6;
+}
+
+#git, #li {
+    size: 2rem;
+    text-decoration: none;
+    color: #00d0ff;
+    display: inline-block;
+    margin: 0 .5rem;
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+    transition: 0.3s ease;
+}
+
+#git:hover, #li:hover {
+    color: #0396b6;
+    transform: scale(1.3)
+}
